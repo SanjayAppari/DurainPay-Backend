@@ -20,5 +20,5 @@ This project is a proof-of-concept for a price comparison tool that allows users
 To set up this project locally,\
 First, clone this repo using *git clone https://github.com/SanjayAppari/DurainPay-Backend.git* command \
 Then at root directory, install all the dependencies using *npm install* command \
-Finally, use *npm start* command to start the local development server. 
+Finally, use *node app.js* command to start the local development server. 
 
