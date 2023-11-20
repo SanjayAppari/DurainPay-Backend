@@ -20,6 +20,7 @@ const webScraping = async(keyWord)=>{
         // Flipkart Website 
         const Flipkarturl = `https://www.flipkart.com/search?q=${keyWord}`;
         var { data } = await axios.get(Flipkarturl);
+        console.log("entered");
         var $ = cheerio.load(data);
         const flipkartTitle = $('._4rR01T:first').text();
         const flipkartRating = $('._3LWZlK:first').text();
